@@ -36,6 +36,9 @@
    ```bash
    pip install -r requirements.txt
    ```
+4. **Включите форвадинг пакетов**
+   * Set-NetIPInterface -Forwarding Enabled В Powershell от Администратора на Windows
+   * echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward в терминале на линукс
 
 4. **Запустите скрипт:**
    * В **Windows** откройте командную строку/PowerShell от имени Администратора:
